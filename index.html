@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQTT Control</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Control LCD Display</h1>
+    <button id="turnOn">TURN ON LED</button>
+    <button id="turnOff">TURN OFF LED</button>
+    <p>Status: <span id="status">Disconnected</span></p>
+    <p id="temperature">Temperature: --</p>
+    <p id="humidity">Humidity: --</p>
+</body>
+</html>
